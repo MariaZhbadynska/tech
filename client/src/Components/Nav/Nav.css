@@ -1,0 +1,250 @@
+#logo {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+#header {
+  text-align: center;
+}
+
+.offcanvas-body {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-header .header-link {
+  color: #a2a2a2;
+}
+
+#product {
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+.search-header {
+  background-color: #F5F5F5;
+  width: 200px;
+  height: 50px;
+  padding: 7px;
+}
+
+.search-header input {
+  font-size: 10px;
+  border: none;
+  background-color: #F5F5F5;
+}
+
+.burger {
+  display: none;
+}
+
+.burger-one,
+.burger-two,
+.burger-three {
+  background-color: black;
+  border-radius: 20px;
+  margin-bottom: 5px;
+}
+
+.burger-one {
+  width: 30px;
+  height: 5px;
+}
+
+.burger-two {
+  width: 20px;
+  height: 5px;
+}
+
+.burger-three {
+  width: 10px;
+  height: 5px;
+}
+
+.register .reg-title,
+.reg-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1e293b;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.register .name,
+.register .password,
+.register .email,
+.reg-name,
+.reg-email {
+  margin-bottom: 20px;
+}
+
+.register h6,
+.reg-name h6,
+.reg-email h6 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #475569;
+  margin-bottom: 8px;
+}
+
+.register input,
+.reg-name input,
+.reg-email input {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background: #ffffff;
+  box-sizing: border-box;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.reg-name input:focus,
+.reg-email input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0px 0px 0px 4px rgba(59, 130, 246, 0.2);
+  outline: none;
+}
+
+#checkboxIns {
+  margin-right: 10px;
+  transform: scale(1.2);
+}
+
+label {
+  font-size: 14px;
+  color: #64748b;
+  font-weight: 500;
+}
+
+input[type="button"] {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="button"]:hover {
+  background-color: #2563eb;
+}
+
+a {
+  color: #3b82f6;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #2563eb;
+}
+
+#forgotPasText {
+  font-size: 14px;
+  color: #475569;
+}
+
+#forgotPasText:hover {
+  text-decoration: underline;
+}
+
+.login div:last-child,
+.register div:last-child {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.register,
+.login {
+  width: 100%;
+  max-width: 400px;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.bag {
+  position: relative;
+  display: inline-block;
+}
+
+.sircle {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  width: 20px;
+  height: 20px;
+  background-color: #000000;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+
+@media(max-width: 1020px) {
+  .nav-header {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+  }
+}
+
+@media(max-width: 900px) {
+
+
+  .burger {
+    display: block;
+  }
+}
+
+@media(max-width: 768px) {
+  .offcanvas-body {
+    padding: 20px;
+  }
+
+  .reg-title {
+    font-size: 24px;
+  }
+
+  input[type="button"] {
+    font-size: 14px;
+    padding: 10px 14px;
+  }
+}
+
+@media(max-width: 500px) {
+
+  .search-header,
+  .nav-header,
+  .col-md-3.text-end {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  #logo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

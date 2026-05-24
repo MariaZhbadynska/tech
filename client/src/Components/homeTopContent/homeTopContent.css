@@ -1,0 +1,342 @@
+body {
+  margin: 0;
+  color: #2D2D2D;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #161617;
+  color: #909090;
+  padding: 50px;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.hero-text h1 {
+  font-size: 96px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+.hero-text h1 span {
+  font-size: 90px;
+  font-weight: 300;
+  color: white;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.shop-now-button {
+  padding: 10px 20px;
+  background-color: black;
+  border: 1px solid white;
+  color: white !important;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.shop-now-button:hover {
+  background-color: white;
+  color: #161617 !important;
+}
+
+.hero-image img {
+  width: 406px;
+  height: 632px;
+}
+
+/* PRODUCT SECTION FIXED */
+.product-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  background-color: #F5F5F5;
+  padding: 50px 20px;
+  align-items: stretch;
+}
+
+.product {
+  background: white;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  transition: box-shadow 0.3s;
+  height: 100%;
+}
+
+.product:hover {
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.product h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.product p {
+  font-size: 14px;
+  color: #6D6D6D;
+  margin-bottom: 15px;
+}
+
+.flex-products {
+  display: flex;
+  gap: 20px;
+  height: 100%;
+}
+
+.playstation h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.playstation p,
+.macbook-card p {
+  font-size: 14px;
+}
+
+.airpods-card,
+.macbook-card {
+  background-color: #EDEDED;
+  gap: 40px;
+}
+
+.airpods-card,
+.glasses-card {
+  flex: 1;
+}
+
+.glasses-card {
+  background-color: #353535;
+  gap: 40px;
+}
+
+.glasses-card span,
+.airpods-card span,
+.macbook-card span {
+  font-weight: 600;
+}
+
+.glasses-card h2 {
+  color: white;
+}
+
+.macbook-card {
+  padding: 24px 25px;
+  height: 100%;
+
+}
+.product-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  background-color: #F5F5F5;
+  padding: 50px 20px;
+  align-items: stretch;
+}
+
+.left,
+.right {
+  height: 100%;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.flex-products {
+  display: flex;
+  gap: 20px;
+  flex: 1;
+}
+
+.product {
+  background: white;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  transition: box-shadow 0.3s;
+}
+
+.playstation {
+  flex: 1;
+}
+
+.airpods-card,
+.glasses-card {
+  flex: 1;
+}
+
+.macbook-card {
+  height: 100%;
+  background-color: #EDEDED;
+  gap: 40px;
+  padding: 24px 25px;
+}
+.macbook-card h2 {
+  font-size: 64px;
+  font-weight: 100;
+}
+
+.browse-by_category {
+  padding: 100px 0;
+  background-color: #FAFAFA;
+}
+
+.browse-by-category h2 {
+  font-size: 1.5rem;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.category-grid {
+  display: flex;
+  justify-content: center;
+  gap: 67px;
+  flex-wrap: wrap;
+}
+
+.category-card {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 15px;
+  width: 160px;
+  height: 128px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+}
+
+.category-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1250px) {
+  .product {
+    gap: 7px;
+  }
+
+  .product img {
+    width: 40%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+  }
+
+  .hero-text {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .hero-text h1,
+  .hero-text h1 span {
+    font-size: 50px;
+  }
+
+  .hero-image img {
+    width: 50%;
+    height: auto;
+  }
+
+  .browse-by-category h2 {
+    font-size: 1.2rem;
+  }
+
+  .product-grid {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  .product {
+    gap: 7px;
+  }
+
+  .product img {
+    width: 40%;
+  }
+
+  .flex-products {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .macbook-card {
+    min-height: auto;
+    height: auto;
+  }
+
+  .playstation {
+    min-height: auto;
+  }
+
+  .airpods-card,
+  .glasses-card {
+    min-height: auto;
+  }
+
+  .category-card {
+    width: 100%;
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 520px) {
+  .bigSale h1 {
+    font-size: 38px;
+  }
+
+  .product-catalog-card img {
+    width: 190px;
+    height: 190px;
+  }
+
+  .product h2 {
+    font-size: 17px;
+  }
+
+  .product p {
+    font-size: 9px;
+  }
+
+  .macbook-card h2 {
+    font-size: 44px;
+  }
+
+  .macbook-card p {
+    font-size: 10px;
+  }
+}

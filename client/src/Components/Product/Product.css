@@ -1,0 +1,62 @@
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex img {
+  width: 30px;
+}
+
+.color-selection .colors {
+  display: flex;
+  gap: 10px;
+}
+
+.fav-button {
+  background-color: inherit;
+}
+
+.product-color {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: border 0.3s ease;
+}
+
+
+.product-color:hover {
+  border-color: gray;
+}
+
+.product-color.black {
+  background-color: black;
+}
+
+.product-color.green {
+  background-color: green;
+}
+
+.product-color.white {
+  border: 2px solid black;
+}
+
+.product-color.purple {
+  background-color: purple;
+}
+
+.product-color.red {
+  background-color: red;
+}
+
+.product-color.gold {
+  background-color: gold;
+}
+
+.product-color.silver {
+  background-color: silver;
+}

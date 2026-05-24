@@ -1,0 +1,231 @@
+.product-tabs {
+  padding: 100px 0;
+}
+
+.tabs-header {
+  display: flex;
+
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.tabs-header button {
+  color: black;
+}
+
+.tab-button {
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s;
+}
+
+.tab-button.active {
+  border-color: black;
+  font-weight: bold;
+}
+
+.product-grid-tabs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+}
+
+.product-card {
+  border-radius: 10px;
+  padding: 20px;
+  transition: box-shadow 0.3s;
+}
+
+.product-card:hover {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+  width: 100%;
+  max-height: 150px;
+  margin-bottom: 10px;
+
+}
+
+
+.product-name {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.product-price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+.product-price_show {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  gap: 10px;
+}
+
+.product-price_show span {
+  padding: 0 10px 0 0;
+}
+
+.buy-now-button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buy-now-button:hover {
+  background: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.products-catalog {
+  display: flex;
+
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product-catalog-card {
+  flex: 1 1 calc(25% - 20px);
+  height: 640px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.pproduct-catalog-card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.product-catalog-image {
+
+  height: 327px;
+  margin-bottom: 10px;
+}
+
+.product-catalog-title {
+  font-size: 33px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.product-catalog-description {
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #909090;
+
+
+}
+
+.product-catalog-button {
+  background-color: transparent;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 15px 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+.product-catalog-button:hover {
+  background-color: #000;
+  color: #fff !important;
+}
+
+
+.ipad-p {
+  background-color: #F9F9F9;
+}
+
+.samsung-p {
+  background-color: #EAEAEA;
+
+}
+
+.macbook-p {
+  background-color: #2C2C2C;
+
+}
+
+.macbook-p h3,
+.macbook-p button,
+.bigSale button {
+  color: white;
+}
+
+.macbook-p button,
+.bigSale button {
+  border: 1px solid white;
+
+}
+
+
+.products-discount {
+  padding: 100px 0;
+}
+
+.products-discount h2 {
+  margin-bottom: 50px;
+}
+
+
+.bigSale {
+  background-image: url('/img/Banner2.png');
+  width: 100%;
+  height: 448px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.bigSale h1 {
+  color: white;
+  font-weight: 100;
+  font-size: 72px;
+
+}
+
+.bigSale h1 span {
+  font-weight: 500;
+}
+
+.bigSale p {
+  color: #787878;
+}
